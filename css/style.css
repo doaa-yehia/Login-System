@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+:root{
+    /* bootstrap overriding */
+    --bs-body-bg: #24353F;
+    --bs-body-color:#fff;
+}
+body,
+html {
+    font-family: sans-serif;
+    background-color: #24353F;
+    h1{
+        
+        font-weight: 500;
+    }
+
+}
+
+::placeholder{
+    color: #B6B6B6;
+}
+input[type="text"]::-webkit-input-placeholder{
+    color: #B6B6B6;
+}
+
+input[type="email"]::-webkit-input-placeholder{
+    color: #B6B6B6;
+}
+
+input[type="password"]::-webkit-input-placeholder{
+    color: #B6B6B6;
+}
+
+
+:ms-input-placeholder{
+    color: #B6B6B6;
+}
+
+::ms-input-placeholder{
+    color: #B6B6B6;
+}
+
+/* .nav-link {
+    display:none;
+    padding: .5rem 1rem;
+} */
+
+@media (max-width: 992px) {
+    .extraBtn{
+        display: none;
+    }
+}

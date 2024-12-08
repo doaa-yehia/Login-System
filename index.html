@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <!-- <a id="hi" href="about.html">go to about</a> -->
+    <section>
+        <div class="container my-5">
+            <div class="shadow-lg w-75 text-center m-auto p-5">
+                <h1 class="text-info">Smart Login System</h1>
+                <div class="">
+                    <input type="text" id="userName" class="form-control my-3  " placeholder="Enter your name">
+                    <span class="text-danger d-none pt-1"> the Name must between 3, 20 letter and the first letter must be capital</span>
+                </div>
+                <div>
+                    <input type="email" id="userEmail" class="form-control my-3" placeholder="Enter your Email">
+                    <span class="text-danger d-none pt-1"> Invalid Email</span>
+                </div>
+               
+                <div>
+                    <input type="password" id="userPassword" class="form-control my-3" placeholder="Enter your password">
+                    <span class="text-danger d-none pt-1">Minimum eight characters, at least one upper case English letter, one lower case English
+                        letter, one number and one special character</span>
+                </div>
+                
+                <span class="mt-3 singUpRes d-none"></span>
+                <button class="btn btn-outline-info my-3 w-100 supBtn">Sing Up</button>
+                <a target="_blank" class="btn btn-outline-info my-3 w-100 logInBtn d-none ">Log In</a>
+                <p><span  id="message">You have an account?</span> <a href="#" class="text-decoration-none text-white singIn">Sing In</a><a href="#"  class="text-decoration-none text-white singUp d-none">Sing Up</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
